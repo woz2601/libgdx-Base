@@ -147,8 +147,13 @@ public class Drop implements ApplicationListener
     }
 
     @Override
-    public void dispose() {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void dispose()
+    {
+        dropImage.dispose();
+        bucketImage.dispose();
+        dropSound.dispose();
+        rainMusic.dispose();
+        batch.dispose();
     }
 
 
