@@ -72,7 +72,7 @@
       <file leaf-file-name="Drop.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/com/woz/drop/Drop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="24" selection-start="4143" selection-end="4143" vertical-scroll-proportion="0.9008168">
+            <state line="146" column="70" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.3761468">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,9 +170,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+    <option name="x" value="406" />
     <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -688,7 +688,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="406" y="0" width="960" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -872,7 +872,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/woz/drop/Drop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="24" selection-start="4143" selection-end="4143" vertical-scroll-proportion="0.9008168">
+        <state line="146" column="70" selection-start="3953" selection-end="3953" vertical-scroll-proportion="0.3761468">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
