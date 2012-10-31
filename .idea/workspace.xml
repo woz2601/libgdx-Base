@@ -72,7 +72,7 @@
       <file leaf-file-name="FirstLibgdx.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/com/woz/firstlibgdx/FirstLibgdx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="27" selection-start="295" selection-end="295" vertical-scroll-proportion="0.50086653">
+            <state line="17" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.578">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,9 +93,7 @@
         <entry file="file://$PROJECT_DIR$/Desktop/src/com/woz/firstlibgdx/DesktopStarter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="36" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,9 +102,7 @@
         <entry file="file://$PROJECT_DIR$/Android/src/com/woz/firstlibgdx/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,8 +140,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,6 +171,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -209,7 +206,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -448,7 +444,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="MemberChooser.sorted" value="false" />
@@ -524,6 +520,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -550,24 +564,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -707,6 +703,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="39032f51-2d89-4633-a534-395f282a15b7" name="Default" comment="" />
       <created>1351620137344</created>
       <updated>1351620137344</updated>
     </task>
@@ -733,14 +730,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="683" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1056" y="152" width="760" height="840" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6002227" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.4914621" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -748,19 +744,21 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49786553" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18836713" sideWeight="0.6703786" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.48932764" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3356009" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18800648" sideWeight="0.6703786" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288719" sideWeight="0.48932764" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="1056" y="152" width="760" height="840" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6002227" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.49786553" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3356009" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -821,116 +819,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Android/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android/gen/com/woz/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="543" selection-end="553" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="51" selection-start="543" selection-end="553" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Android/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="114" selection-end="114" vertical-scroll-proportion="0.077892326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/src/com/woz/firstlibgdx/DesktopStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="4" column="7" selection-start="114" selection-end="114" vertical-scroll-proportion="0.077892326" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Android/libs/gdx-backend-android.jar!/com/badlogic/gdx/backends/android/AndroidApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.4610849">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/src/com/woz/firstlibgdx/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="16" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.4610849" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Gdx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="37" column="21" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Audio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="32" selection-start="4035" selection-end="4035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="85" column="32" selection-start="4035" selection-end="4035" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Version.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="851" selection-end="851" vertical-scroll-proportion="0.13631158">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="851" selection-end="851" vertical-scroll-proportion="0.13631158" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Preferences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.33104238">
-          <folding />
-        </state>
+        <state line="31" column="17" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.33104238" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/files/FileHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="46" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="64" column="46" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="16" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/audio/AudioDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.23367697">
-          <folding />
-        </state>
+        <state line="26" column="17" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.23367697" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/Main/libs/gdx-sources.jar!/com/badlogic/gdx/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="22" selection-start="1120" selection-end="1120" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/src/com/woz/firstlibgdx/DesktopStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="36" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/src/com/woz/firstlibgdx/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/com/woz/firstlibgdx/FirstLibgdx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="295" selection-end="295" vertical-scroll-proportion="0.50086653">
+        <state line="17" column="13" selection-start="308" selection-end="308" vertical-scroll-proportion="0.578">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -990,11 +954,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Main</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.20000002" />
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -1014,7 +978,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Mainlibs</last-edited>
+          <last-edited>Androidlibs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
