@@ -7,10 +7,12 @@ import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
+import com.badlogic.gdx.utils.TimeUtils;
 
 import java.awt.*;
 import java.util.Iterator;
@@ -37,13 +39,16 @@ public class SoundTest implements ApplicationListener
     float bass2Volume;
     float volume;
 
-    Font font;
+    BitmapFont fpsFont;
+    String fps;
 
     OrthographicCamera camera;
     SpriteBatch batch;
 
     Rectangle box;
-    long lastDropTime;
+    long lastFrameTime;
+    
+    int fpsSmoother;
 
     @Override
     public void create()
@@ -88,8 +93,10 @@ public class SoundTest implements ApplicationListener
         box.y = 20;
         box.width = 48;
         box.height = 48;
-        
-        font = new Font("Times New Roman", Font.PLAIN, 12);
+
+        lastFrameTime = 0;
+        fpsSmoother = 0;
+        fpsFont = new BitmapFont();
     }
 
     @Override
@@ -100,6 +107,8 @@ public class SoundTest implements ApplicationListener
     @Override
     public void render()
     {
+
+
         Gdx.gl.glClearColor(0, 0, 0.2f, 1);
         Gdx.gl.glClear(GL10.GL_COLOR_BUFFER_BIT);
 
@@ -113,8 +122,16 @@ public class SoundTest implements ApplicationListener
         
         */
 
+        if (fpsSmoother == 10)
+        {
+            fps = (int)(1000000000.0 / (TimeUtils.nanoTime() - lastFrameTime)) + "";
+            fpsSmoother = 0;
+        }
+        lastFrameTime = TimeUtils.nanoTime();
+        fpsSmoother++;
+
         batch.begin();
-        ;
+        fpsFont.draw(batch, "FPS: " + fps, 20, 480 - 20);
         batch.end();
 
         if (Gdx.input.isTouched())
@@ -138,6 +155,7 @@ public class SoundTest implements ApplicationListener
             }
             bassLoop2.setVolume(bass2Volume);
         }
+
 
     }
 
