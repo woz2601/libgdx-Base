@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.woz;
+package com.woz.drop;
 
 public final class R {
     public static final class attr {

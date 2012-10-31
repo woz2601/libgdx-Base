@@ -1,4 +1,4 @@
-package com.woz.firstlibgdx;
+package com.woz.drop;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -10,7 +10,7 @@ import com.badlogic.gdx.audio.AudioDevice;
  * Date: 10/30/12 *
  */
 
-public class FirstLibgdx extends Game
+public class Drop extends Game
 {
     @Override
     public void create()
@@ -18,6 +18,6 @@ public class FirstLibgdx extends Game
         //This is a test comment
         //This is a second test comment
     }
-    
-    
+
+
 }
