@@ -12,6 +12,7 @@ import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
 
+import java.awt.*;
 import java.util.Iterator;
 
 /**
@@ -21,11 +22,22 @@ import java.util.Iterator;
 
 public class SoundTest implements ApplicationListener
 {
-    Texture dropImage;
-    Texture bucketImage;
+    //Texture dropImage;
+    //Texture bucketImage;
+    // Sound dropSound;
 
-    Sound dropSound;
-    Music rainMusic;
+    Music intro;
+    
+    Music fluteLoop;
+    Music bassLoop;
+    Music bassLoop2;
+    Music stabsLoop;
+    Music padLoop;
+
+    float bass2Volume;
+    float volume;
+
+    Font font;
 
     OrthographicCamera camera;
     SpriteBatch batch;
@@ -47,6 +59,25 @@ public class SoundTest implements ApplicationListener
         rainMusic.play();
         */
 
+        intro = Gdx.audio.newMusic(Gdx.files.internal("Intro.wav"));
+
+        fluteLoop = Gdx.audio.newMusic(Gdx.files.internal("FluteLoop.wav"));
+        bassLoop = Gdx.audio.newMusic(Gdx.files.internal("BassLoop.wav"));
+        bassLoop2 = Gdx.audio.newMusic(Gdx.files.internal("BassLoop2.wav"));
+        stabsLoop = Gdx.audio.newMusic(Gdx.files.internal("StabsLoop.wav"));
+        padLoop = Gdx.audio.newMusic(Gdx.files.internal("PadLoop.wav"));
+
+        intro.play();
+
+        fluteLoop.setLooping(true);
+        fluteLoop.setVolume(0);
+        fluteLoop.play();
+
+        bass2Volume = 0;
+        bassLoop2.setLooping(true);
+        bassLoop2.setVolume(bass2Volume);
+        bassLoop2.play();
+
         camera = new OrthographicCamera();
         camera.setToOrtho(true);
 
@@ -57,6 +88,8 @@ public class SoundTest implements ApplicationListener
         box.y = 20;
         box.width = 48;
         box.height = 48;
+        
+        font = new Font("Times New Roman", Font.PLAIN, 12);
     }
 
     @Override
@@ -77,8 +110,12 @@ public class SoundTest implements ApplicationListener
         batch.begin();
         batch.draw(bucketImage, box.x, box.y);
         batch.end();
-
+        
         */
+
+        batch.begin();
+        ;
+        batch.end();
 
         if (Gdx.input.isTouched())
         {
@@ -87,6 +124,21 @@ public class SoundTest implements ApplicationListener
             camera.unproject(touchPos);
             box.x = touchPos.x - 48 / 2;
         }
+
+        if (!intro.isPlaying())
+        {
+            //fluteLoop.setLooping(true);
+            //fluteLoop.play();
+
+            fluteLoop.setVolume(1);
+
+            if (bass2Volume < 1.0f)
+            {
+                bass2Volume += 0.2f;
+            }
+            bassLoop2.setVolume(bass2Volume);
+        }
+
     }
 
     @Override
@@ -102,10 +154,13 @@ public class SoundTest implements ApplicationListener
     @Override
     public void dispose()
     {
-        dropImage.dispose();
-        bucketImage.dispose();
-        dropSound.dispose();
-        rainMusic.dispose();
+        intro.dispose();
+        fluteLoop.dispose();
+        bassLoop.dispose();
+        bassLoop2.dispose();
+        stabsLoop.dispose();
+        padLoop.dispose();
+
         batch.dispose();
     }
 }
