@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.woz.drop;
+package com.woz.SoundTest;
 
 public final class R {
     public static final class attr {

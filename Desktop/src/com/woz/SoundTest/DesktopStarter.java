@@ -1,8 +1,8 @@
-package com.woz.firstlibgdx;
+package com.woz.SoundTest;
 
 import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
-import com.woz.drop.Drop;
+import com.woz.soundtest.SoundTest;
 
 /**
  * Created: Woz
@@ -14,11 +14,10 @@ public class DesktopStarter
     public static void main(String[] args)
     {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
-        cfg.title = "First libgdx Test";
+        cfg.title = "SoundTest";
         cfg.useGL20 = true;
         cfg.width = 800;
         cfg.height = 480;
-        new LwjglApplication(new Drop(), cfg);
+        new LwjglApplication(new SoundTest(), cfg);
     }
-
 }

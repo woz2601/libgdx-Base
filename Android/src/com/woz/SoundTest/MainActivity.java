@@ -1,9 +1,9 @@
-package com.woz.drop;
+package com.woz.SoundTest;
 
-import android.app.Activity;
 import android.os.Bundle;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.woz.soundtest.SoundTest;
 
 public class MainActivity extends AndroidApplication
 {
@@ -18,6 +18,6 @@ public class MainActivity extends AndroidApplication
         //cfg.useWakelock = true;
         cfg.useGL20 = true;
 
-        initialize(new Drop(), cfg);
+        initialize(new SoundTest(), cfg);
     }
 }

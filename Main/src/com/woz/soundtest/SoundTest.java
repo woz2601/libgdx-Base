@@ -36,14 +36,16 @@ public class SoundTest implements ApplicationListener
     @Override
     public void create()
     {
+        /*
         dropImage = new Texture(Gdx.files.internal("droplet.png"));
         bucketImage = new Texture(Gdx.files.internal("bucket.png"));
 
-        dropSound = Gdx.audio.newSound(Gdx.files.internal("drop.wav"));
+        dropSound = Gdx.audio.newSound(Gdx.files.internal("SoundTest.wav"));
         rainMusic = Gdx.audio.newMusic(Gdx.files.internal("rain.mp3"));
 
         rainMusic.setLooping(true);
         rainMusic.play();
+        */
 
         camera = new OrthographicCamera();
         camera.setToOrtho(true);
@@ -58,8 +60,8 @@ public class SoundTest implements ApplicationListener
     }
 
     @Override
-    public void resize(int width, int height) {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void resize(int width, int height)
+    {
     }
 
     @Override
@@ -70,10 +72,13 @@ public class SoundTest implements ApplicationListener
 
         camera.update();
 
+        /*
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
         batch.draw(bucketImage, box.x, box.y);
         batch.end();
+
+        */
 
         if (Gdx.input.isTouched())
         {
@@ -85,13 +90,13 @@ public class SoundTest implements ApplicationListener
     }
 
     @Override
-    public void pause() {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void pause()
+    {
     }
 
     @Override
-    public void resume() {
-        //To change body of implemented methods use File | Settings | File Templates.
+    public void resume()
+    {
     }
 
     @Override
@@ -103,6 +108,4 @@ public class SoundTest implements ApplicationListener
         rainMusic.dispose();
         batch.dispose();
     }
-
-
 }
