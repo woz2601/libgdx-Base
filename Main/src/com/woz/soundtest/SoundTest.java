@@ -15,6 +15,7 @@ import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.TimeUtils;
 
 import java.awt.*;
+import java.awt.Graphics;
 import java.util.Iterator;
 
 /**
@@ -72,16 +73,16 @@ public class SoundTest implements ApplicationListener
         stabsLoop = Gdx.audio.newMusic(Gdx.files.internal("StabsLoop.wav"));
         padLoop = Gdx.audio.newMusic(Gdx.files.internal("PadLoop.wav"));
 
-        intro.play();
+        //intro.play();
 
         fluteLoop.setLooping(true);
         fluteLoop.setVolume(0);
-        fluteLoop.play();
+        //fluteLoop.play();
 
         bass2Volume = 0;
         bassLoop2.setLooping(true);
         bassLoop2.setVolume(bass2Volume);
-        bassLoop2.play();
+        //bassLoop2.play();
 
         camera = new OrthographicCamera();
         camera.setToOrtho(true);
@@ -132,6 +133,7 @@ public class SoundTest implements ApplicationListener
 
         batch.begin();
         fpsFont.draw(batch, "FPS: " + fps, 20, 480 - 20);
+        fpsFont.draw(batch, "FPS: " + Gdx.graphics.getFramesPerSecond(), 20, 480 - 50);
         batch.end();
 
         if (Gdx.input.isTouched())
@@ -142,18 +144,18 @@ public class SoundTest implements ApplicationListener
             box.x = touchPos.x - 48 / 2;
         }
 
-        if (!intro.isPlaying())
+       if (!intro.isPlaying())
         {
             //fluteLoop.setLooping(true);
             //fluteLoop.play();
 
-            fluteLoop.setVolume(1);
+            //fluteLoop.setVolume(1);
 
             if (bass2Volume < 1.0f)
             {
-                bass2Volume += 0.2f;
+                bass2Volume += 0.002f;
             }
-            bassLoop2.setVolume(bass2Volume);
+            //bassLoop2.setVolume(bass2Volume);
         }
 
 
